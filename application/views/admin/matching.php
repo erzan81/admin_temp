@@ -46,77 +46,95 @@
                                     </select>
                                 </div>
                                 
-                                <div class="form-group">
-                                    <label>Tahap</label>
+                                <div class="row">
+                                  <div class="col-xs-2">
+                                    <label>Range (%): </label>
+                                  </div>
+
+                                  <div class="col-xs-1">
                                     <input class="form-control">
+                                  </div>
+                                  <div class="col-xs-1">
+                                    <center><label>S/D</label></center>
+                                  </div>
+
+                                  <div class="col-xs-1">
+                                    <input class="form-control" >
+                                  </div>
 
                                 </div>
-                                
 
-                                <button type="submit" class="btn btn-info"><i class="fa fa-refresh"></i> Proses</button>
-                                
-                            </form>
+                          <div class="form-group">
+                            <label>Tahap</label>
+                            <input class="form-control">
+
                         </div>
-                        <!-- /.col-lg-6 (nested) -->
-                        
-                        <!-- /.col-lg-6 (nested) -->
-                    </div>
-                    <!-- /.row (nested) -->
+
+
+                        <button type="submit" class="btn btn-info"><i class="fa fa-refresh"></i> Proses</button>
+
+                    </form>
                 </div>
-                <!-- /.panel-body -->
+                <!-- /.col-lg-6 (nested) -->
+
+                <!-- /.col-lg-6 (nested) -->
             </div>
-            <!-- /.panel -->
+            <!-- /.row (nested) -->
         </div>
-        <!-- /.col-lg-12 -->
-
-        <div class="col-md-12">
-            <div class="panel panel-success active">
-                <div class="panel-heading">
-                    History Matching Data
-                </div>
-                <div class="panel-body">
-                    <div class="row">
-
-
-                        <div class="col-lg-12">
-
-                            <form role="form">
-                                <h4>Tahap 1 Metode : xxxxxxx</h4>
-                                <blockquote>
-                                    <p>Total Keselurahan Data : <b>500000</b> <a class="btn btn-info btn-xs"><span class="fa fa-search"></span> See Detail</a></p>
-
-                                    <small class="text-success">Data Match : 
-                                        <cite title="Source Title">100000 Data</cite>
-                                    </small>
-                                    <small class="text-danger">Data Tidak Match : 
-                                        <cite title="Source Title">400000 Data</cite>
-                                    </small>
-                                </blockquote>
-                                <h4>Tahap 2 Metode : xxxxxxx</h4>
-                                <blockquote>
-                                    <p>Total Keselurahan Data : <b>400000</b> <a class="btn btn-info btn-xs"><span class="fa fa-search"></span> See Detail</a></p>
-
-                                    <small class="text-success">Data Match : 
-                                        <cite title="Source Title">400000 Data</cite>
-                                    </small>
-                                    <small class="text-danger">Data Tidak Match : 
-                                        <cite title="Source Title">0 Data</cite>
-                                    </small>
-                                </blockquote>
-
-                                
-                                <!-- /.col-lg-6 (nested) -->
-                            </form>
-                        </div>
-                        <!-- /.col-lg-6 (nested) -->
-
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.panel-body -->
-            </div>
-            <!-- /.panel -->
-        </div>
+        <!-- /.panel-body -->
     </div>
-    <!-- /.row -->
+    <!-- /.panel -->
+</div>
+<!-- /.col-lg-12 -->
+
+<div class="col-md-12">
+    <div class="panel panel-success active">
+        <div class="panel-heading">
+            History Matching Data
+        </div>
+        <div class="panel-body">
+            <div class="row">
+
+
+                <div class="col-lg-12">
+
+                    <form role="form">
+                        <h4>Tahap 1 Metode : xxxxxxx</h4>
+                        <blockquote>
+                            <p>Total Keselurahan Data : <b>500000</b> <a class="btn btn-info btn-xs"><span class="fa fa-search"></span> See Detail</a></p>
+
+                            <small class="text-success">Data Match : 
+                                <cite title="Source Title">100000 Data</cite>
+                            </small>
+                            <small class="text-danger">Data Tidak Match : 
+                                <cite title="Source Title">400000 Data</cite>
+                            </small>
+                        </blockquote>
+                        <h4>Tahap 2 Metode : xxxxxxx</h4>
+                        <blockquote>
+                            <p>Total Keselurahan Data : <b>400000</b> <a class="btn btn-info btn-xs"><span class="fa fa-search"></span> See Detail</a></p>
+
+                            <small class="text-success">Data Match : 
+                                <cite title="Source Title">400000 Data</cite>
+                            </small>
+                            <small class="text-danger">Data Tidak Match : 
+                                <cite title="Source Title">0 Data</cite>
+                            </small>
+                        </blockquote>
+
+
+                        <!-- /.col-lg-6 (nested) -->
+                    </form>
+                </div>
+                <!-- /.col-lg-6 (nested) -->
+
+            </div>
+            <!-- /.row (nested) -->
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>
+</div>
+<!-- /.row -->
 </div>

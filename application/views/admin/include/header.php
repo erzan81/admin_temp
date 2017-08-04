@@ -14,12 +14,35 @@
    <link href="<?php echo base_url('assets/bootstrap-3.1.1/css/custom.css') ?>" rel="stylesheet">
    
    <!-- Page-Level Plugin CSS - Dashboard -->
-    <link href="<?php echo base_url('assets/sb-admin-v2/css/plugins/morris/morris-0.4.3.min.css') ;?> rel="stylesheet">
-    <link href="<?php echo base_url('assets/sb-admin-v2/css/plugins/timeline/timeline.css') ;?> rel="stylesheet">
+    <link href="<?php echo base_url('assets/sb-admin-v2/css/plugins/morris/morris-0.4.3.min.css') ;?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/sb-admin-v2/css/plugins/timeline/timeline.css') ;?>" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="<?php echo base_url('assets/sb-admin-v2/css/plugins/dataTables/dataTables.bootstrap.css') ;?>" rel="stylesheet">
    
    <!-- SB Admin CSS - Include with every page -->
    <link href="<?php echo base_url('assets/sb-admin-v2/css/sb-admin.css') ?>" rel="stylesheet">
    
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.3.1/lodash.min.js"></script>
+   <script src="<?php echo base_url('assets/bootstrap-3.1.1/js/bootstrap.min.js') ?>"></script>
+   <script src="<?php echo base_url('assets/bootstrap-3.1.1/js/custom.js') ?>"></script>
+   
+   
+   
+   <!-- Core Scripts - Include with every page -->    
+    <script src="<?php echo base_url('assets/sb-admin-v2/js/plugins/metisMenu/jquery.metisMenu.js') ?>"></script>
+
+    <!-- Page-Level Plugin Scripts - Dashboard -->
+    
+
+    
+
+    <!-- DataTables JavaScript -->
+    <script src="<?php echo base_url('assets/sb-admin-v2/js/plugins/dataTables/jquery.dataTables.js') ?>"></script>
+    <script src="<?php echo base_url('assets/sb-admin-v2/js/plugins/dataTables/dataTables.bootstrap.js') ?>"></script>
       
 </head>
 <body>
@@ -260,7 +283,7 @@
                         <a href="<?php echo base_url('admin/matching');?>"><i class="fa fa-bar-chart-o fa-fw"></i> Macthing Data</a>
                     </li>
                     <li>
-                        <a href="forms.html"><i class="fa fa-laptop fa-fw"></i> Monitoring</a>
+                        <a href="<?php echo base_url('admin/monitoring');?>"><i class="fa fa-laptop fa-fw"></i> Monitoring</a>
                     </li>
                     <li>
                         <a href="<?php echo base_url('admin/export');?>"><i class="fa fa-file fa-fw"></i> Export Data</a>
