@@ -7,7 +7,7 @@
    <meta name="keywords" content="">
    <meta name="author" content="">
 
-	<title>CodeIgniter Bootstrap</title>
+	<title>Pemadanan App Ver 0.1</title>
 
    <link href="<?php echo base_url('assets/bootstrap-3.1.1/css/bootstrap.min.css') ?>" rel="stylesheet">
    <link href="<?php echo base_url('assets/bootstrap-3.1.1/css/font-awesome.css') ?>" rel="stylesheet">
@@ -34,7 +34,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+                <a class="navbar-brand" href="<?php echo base_url('admin/home');?>">Pemadanan v0.1</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -241,37 +241,37 @@
             <div class="sidebar-collapse">
                 <ul class="nav" id="side-menu">
                     <li class="sidebar-search">
-                        <div class="input-group custom-search-form">
-                            
-                        </div>
+                        
+                            <span class="fa fa-list"></span> Navigation
+                        
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="<?php echo base_url('admin/home');?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     
                     <li>
                         <a href="<?php echo base_url('admin/source');?>"><i class="fa fa-upload fa-fw"></i> Upload Data Sumber</a>
                     </li>
                     <li>
-                        <a href="tables.html"><i class="fa fa-edit fa-fw"></i> Verifikasi dan Cleansing Data</a>
+                        <a href="<?php echo base_url('admin/verifikasi');?>"><i class="fa fa-edit fa-fw"></i> Verifikasi dan Cleansing Data</a>
                     </li>
                     <li>
-                        <a href="forms.html"><i class="fa fa-bar-chart-o fa-fw"></i> Macthing Data</a>
+                        <a href="<?php echo base_url('admin/matching');?>"><i class="fa fa-bar-chart-o fa-fw"></i> Macthing Data</a>
                     </li>
                     <li>
                         <a href="forms.html"><i class="fa fa-laptop fa-fw"></i> Monitoring</a>
                     </li>
                     <li>
-                        <a href="forms.html"><i class="fa fa-file fa-fw"></i> Export Data</a>
+                        <a href="<?php echo base_url('admin/export');?>"><i class="fa fa-file fa-fw"></i> Export Data</a>
                     </li>
                     
-                    <li class="sidebar-search">
+                    <!-- <li class="">
                         <div class="input-group custom-search-form">
                             
                         </div>
-                        <!-- /input-group -->
-                    </li>
+                        
+                    </li> -->
                     
                 </ul>
                 <!-- /#side-menu -->
